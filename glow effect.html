@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glow</title>
+    <link rel="shortcut icon" href="th (4).jfif" type="image/x-icon">
+    <style>
+        body{
+            margin: 0;
+            padding: 0px;
+            background: rebeccapurple;
+        }
+        ul{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        ul li{
+            list-style-type: none;
+            font-family: cursive;
+            font-size:55px;
+            letter-spacing: 15px;
+            text-shadow: none;
+            animation: animate 1s infinite linear;
+        }
+        @keyframes animate{
+            0%{
+                color: #484848;
+                text-shadow: none;
+            }
+            18%{
+                color: red;
+                text-shadow: none;
+            }
+            20%{
+                color: #fff900;
+                text-shadow: 0 0 0.7px olive, 
+                0 0 20px green;
+            }
+            30%{
+                color: #13d7a3;
+                text-shadow: none;
+            }
+            35%{
+                color: navajowhite;
+                text-shadow: 0 0 7px navajowhite,
+                0 0 20px lightblue;
+            }
+            70%{
+                color: chartreuse;
+                text-shadow: none;
+            }
+            85%{
+                color: orangered;
+                text-shadow: 0 0 7px orangered,
+                0 0 20px orange;
+            }
+            90%{
+                color: darkred ;
+                text-shadow: none;
+            }
+            100%{
+                color:darkslategray;
+                text-shadow: none;
+            } 
+        }
+        ul li:nth-child(1){
+            animation-delay:.2s; 
+        }
+        ul li:nth-child(2){
+            animation-delay: .4s; 
+        }
+        ul li:nth-child(3){
+            animation-delay: .6s;
+        }
+        ul li:nth-child(4){
+            animation-delay: .8s; 
+        }ul li:nth-child(5){
+            animation-delay: 1s;
+        }ul li:nth-child(6){
+            animation-delay: 1.2s;
+        }ul li:nth-child(7){
+            animation-delay: 1.4s;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>R</li>
+        <li>E</li>
+        <li>W</li>
+        <li>A</li>
+        <li>R</li>
+        <li>D</li>
+    </ul> 
+   
+</body>
+</html>
